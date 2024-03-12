@@ -12,9 +12,6 @@ export default function Todo(){
     const completedTodos = todos.filter((todo)=>todo.done === true).length
     const totalTodos = todos.length
     
-    
-
-
     return ( 
         <div>
             <Form todos={todos} setTodos={setTodos} />

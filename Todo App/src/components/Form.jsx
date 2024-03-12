@@ -3,8 +3,8 @@ import styles from "./form.module.css"
 
 export default function Form({todos,setTodos}){
 
-    //const [todo, setTodo] = useState(""); EMPTY STRING
-    const [todo, setTodo] = useState({name: "", done: false}); //OBJECT
+
+    const [todo, setTodo] = useState({name: "", done: false});
     
     function handleSubmit(e){
         e.preventDefault(); //Impide que al hacer click, se elimine la informacion escrita en el textbox
